@@ -307,22 +307,6 @@ Update rule: `new_vector = normalize(w_user × user_vec + w_item × item_vec)`
 
 ---
 
-## Publishing to GitHub
-
-Run all commands from inside the `finalhw` folder.
-
-```powershell
-git init
-git add .
-git commit -m "Initial commit: EngageIQ final project"
-git remote add origin https://github.com/<your-username>/EngageIQ.git
-git branch -M main
-git push -u origin main
-```
-
-When prompted for a password use a **Personal Access Token** (not your GitHub password): Settings → Developer settings → Personal access tokens → Generate new token → tick `repo` scope.
-
----
 
 ## License
 
