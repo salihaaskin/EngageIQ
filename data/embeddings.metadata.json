@@ -1,0 +1,12 @@
+{
+  "created_at_utc": "2026-06-05T20:32:20Z",
+  "embedding_dimension": 384,
+  "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+  "opportunities_path": "data\\main data\\finaldataset.csv",
+  "opportunity_count": 16253,
+  "opportunity_embeddings_path": "data\\opportunity_embeddings.jsonl",
+  "schema_version": "1.0.0",
+  "user_count": 0,
+  "user_embeddings_path": null,
+  "users_path": null
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "user_id": "user-alice",
+    "interests": [
+      "large language models",
+      "observability",
+      "open source"
+    ],
+    "expertise": ["python", "kubernetes", "prometheus"],
+    "preferred_domains": [
+      "artificial_intelligence",
+      "devops",
+      "machine_learning"
+    ],
+    "engagement_history": [
+      {
+        "title": "Open-source LLM tracing toolkit",
+        "domain": "AI Research",
+        "source": "github"
+      },
+      {
+        "title": "Show HN: Lightweight metrics for RAG pipelines",
+        "domain": "Machine Learning",
+        "source": "hackernews"
+      }
+    ]
+  },
+  {
+    "user_id": "user-bob",
+    "interests": ["react", "typescript", "design systems"],
+    "expertise": ["frontend", "accessibility"],
+    "preferred_domains": ["frontend_development"],
+    "engagement_history": [
+      {
+        "title": "Component library for enterprise dashboards",
+        "domain": "Frontend (React/Web)",
+        "source": "reddit"
+      }
+    ]
+  }
+]

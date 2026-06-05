@@ -1,0 +1,9 @@
+{
+  "created_at_utc": "2026-06-05T20:58:34Z",
+  "embedding_dimension": 384,
+  "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+  "schema_version": "1.0.0",
+  "user_count": 2,
+  "user_embeddings_path": "data\\user_embeddings.jsonl",
+  "users_path": "data\\user_profiles.sample.json"
+}

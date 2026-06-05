@@ -1,0 +1,13 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+data/opportunity_embeddings.jsonl
+*.jsonl
+*.pkl
+*.faiss
+*.bin
+
+.env
+.streamlit/secrets.toml

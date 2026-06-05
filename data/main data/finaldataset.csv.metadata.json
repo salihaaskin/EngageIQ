@@ -1,0 +1,48 @@
+{
+  "created_at_utc": "2026-06-04T23:11:05Z",
+  "deduplication_count": 1321,
+  "domain_coverage": {
+    "artificial_intelligence": 35,
+    "backend_development": 1,
+    "cloud_computing": 76,
+    "databases": 2,
+    "developer_tools": 6074,
+    "devops": 14,
+    "frontend_development": 5,
+    "machine_learning": 27,
+    "other": 7272,
+    "research": 118,
+    "unknown": 2029
+  },
+  "output_path": "snapshots\\finaldataset.csv",
+  "row_counts": {
+    "after_deduplication": 15653,
+    "final": 15653,
+    "merged": 16974,
+    "raw_total": 16974
+  },
+  "schema_version": "1.0.0",
+  "source_files": [
+    "github_events1.csv",
+    "hackernews_posts.csv",
+    "hackernews_posts1.csv"
+  ],
+  "topic_coverage": {
+    "AI Research": 629,
+    "B2B SaaS": 353,
+    "Beginner Coding": 30,
+    "Blockchain": 599,
+    "Cloud APIs": 332,
+    "Cybersecurity": 782,
+    "DevOps/K8s": 1091,
+    "Developer Tools": 1533,
+    "Embedded Systems (C/RTOS)": 185,
+    "Frontend (React/Web)": 2237,
+    "GameDev (C++)": 187,
+    "Machine Learning": 1058,
+    "Mobile Dev (iOS/Flutter)": 495,
+    "Python Data Eng": 414,
+    "Trending Open-Source": 1864,
+    "unknown": 3864
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "description": "Example interaction labels for NDCG@10 ranking evaluation.",
+  "relevance_mapping": {
+    "engaged": 3,
+    "bookmarked": 2,
+    "clicked": 1,
+    "skipped": 0
+  },
+  "interactions": [
+    {
+      "user_id": "user-alice",
+      "opportunity_id": "hackernews::45927958",
+      "interaction": "engaged",
+      "relevance_label": 3
+    },
+    {
+      "user_id": "user-alice",
+      "opportunity_id": "github::example-repo",
+      "interaction": "bookmarked",
+      "relevance_label": 2
+    },
+    {
+      "user_id": "user-alice",
+      "opportunity_id": "reddit::example-post",
+      "interaction": "clicked",
+      "relevance_label": 1
+    },
+    {
+      "user_id": "user-alice",
+      "opportunity_id": "hackernews::00000000",
+      "interaction": "skipped",
+      "relevance_label": 0
+    }
+  ]
+}

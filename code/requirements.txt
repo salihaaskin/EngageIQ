@@ -1,0 +1,33 @@
+# Root requirements for Streamlit Cloud / HuggingFace Spaces deployment
+# The app runs with keyword-fallback ranking when sentence-transformers/faiss
+# are unavailable (e.g. Cloud free tier with memory constraints).
+
+# Core dashboard
+streamlit>=1.35.0
+plotly>=5.20.0
+pandas>=2.0.0
+pyarrow>=14.0.0
+numpy>=1.24.0
+
+# Semantic ranking (optional — app degrades gracefully without these)
+sentence-transformers>=3.0.0
+# torch is pulled in by sentence-transformers; pin CPU-only for cloud deploys
+# torch>=2.0.0
+faiss-cpu>=1.7.4
+scikit-learn>=1.3.0
+
+# Data collection (only needed for re-running collectors, not the dashboard)
+# praw>=7.7.1
+# requests>=2.31.0
+# python-dotenv>=1.0.0
+
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+#Embeddings
+sentence-transformers>=3.0.0
+torch>=2.0.0
+faiss-cpu>=1.7.4
+scikit-learn>=1.3.0
+
+

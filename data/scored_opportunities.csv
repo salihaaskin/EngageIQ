@@ -1,0 +1,6 @@
+"id","title","platform","final_score","relevance_score","community_health_score","visibility_score","effort_score","suggested_action"
+"opp_1","Kubernetes, cloud-native computing's engine, is getting turbocharged for AI","hackernews","1","0.7","0.7","0.63","0.7","Write a thoughtful comment, ask a clarifying question, or open a small GitHub issue/PR."
+"opp_2","Show HN: A Kubernetes Operator to Validate Jupyter Notebooks in MLOps","hackernews","2","0.85","0.9","0.81","0.7","Write a thoughtful comment, ask a clarifying question, or open a small GitHub issue/PR."
+"opp_3","AI Skills 2025: LangChain, RAG and MLOps?The Complete Guide","hackernews","2","0.85","0.9","0.81","0.9","Write a thoughtful comment, ask a clarifying question, or open a small GitHub issue/PR."
+"opp_4","Create branch renovate/ubuntu-24.x","github","0","0.55","0.5","0.45","0.9","Write a thoughtful comment, ask a clarifying question, or open a small GitHub issue/PR."
+"opp_5","Create branch lora-test-fix","github","0","0.55","0.5","0.45","0.9","Write a thoughtful comment, ask a clarifying question, or open a small GitHub issue/PR."
